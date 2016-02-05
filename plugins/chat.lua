@@ -1,4 +1,19 @@
-local function run(msg)
+local function run(msg)if msg.text == 
+if msg.text == "Pesaram" then
+	return "من پسر تو نیستم مرتیکه"
+end
+if msg.text == "pesaram" then
+	return "من پسر تو نیستم مرتیکه"
+end
+if msg.text == "ALI" then
+	return "با بابای من چیکار داری"
+end
+if msg.text == "ali" then
+	return "با بابای من چیکار داری"
+end
+if msg.text == "Ali" then
+	return "با بابای من چیکار داری"
+end
 if msg.text == "hi" then
 	return "Hello bb"
 end
@@ -44,6 +59,8 @@ return {
 	description = "Chat With Robot Server", 
 	usage = "chat with robot",
 	patterns = {
+		"^[Pp]esaram$",
+		"^[Aa]li$",
 		"^[Hh]i$",
 		"^[Hh]ello$",
 		"^[Bb]ot$",
