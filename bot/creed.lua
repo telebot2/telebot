@@ -344,16 +344,13 @@ You Can user both "!" & "/" for them
 
 ]],
     help_text = [[
-bots Help for mods : Plugins
+: لیست دستورات کنترل گروه
 
-Banhammer :
-
-Help For Group دستورای کنترل گروه
-!Kick @UserName or ID 
+!Kick @username or ID 
 شخصی را از گروه حذف کنید . همچنین با ریپلی هم میشه
-!Ban @UserName or ID
+!Ban @username  or ID
 برای بن کردن شخص اسفاده میشود . با ریپلی هم میشه
-!Unban @UserName
+!Unban @username 
 برای آنبن کردن شخصی استفاده میشود . همچنین با ریپلی هم میشه
 For Admins :
 !banall ID
@@ -367,118 +364,81 @@ For Admins :
 !lock tag
 برای مجوز ندادن به اعضا از استفاده کردن @  و #  برای تگ
 !lock member
-For locking Inviting users
 برای جلوگیری از آمدن اعضای جدید استفاده میشود
 !lock bots
-for Locking Bots invitation
 برای جلوگیری از ادد کردن ربا استفاده میشود
 !lock name 
-To lock the group name for every bodey
 برای قفل کردن اسم استفاده میشود
 !setflood
-set the group flood control   
 تعداد اسپم را در گروه تعیین میکنید
 !settings 
-Watch group settings
 تنظیمات فعلی گروه را میبینید
 !owner
-watch group owner
 آیدی سازنده گروه رو میبینید
-!setowner user_id❗️
-You can set someone to the group owner‼️
+!setowner user_id
 برای گروه سازنده تعیین میکنید 
 !modlist
-catch Group mods
 لیست مدیران گروه را میگیرید
 !lock adds 
-to lock commercial Breaks and Other group links in group
 از دادن لینک گروه یا سایت یا هرچیز دیگه توی گروه جلوگیری میکند .
 !lock eng
-You cannot speak english in group
 از حرف زدن انگلیسی توی گروه جلوگیری میکند
 !lock settings
-To lock settings of group and unchange able
 برای قفل کردن تنظیمات گروه به کار میره
 !lock badw
-To lock using badwords in group
 برای جلوگیری از استفاده کردن حرف های رکیک استفاده میشود
-!lock join 
-to lock joining the group by link
+!lock join
 برای جلوگیری از وارد شدن به کروه با لینک
 !lock flood️
-lock group flood
 از اسپم دادن در گروه جلوگیری کنید
-!unlock (bots-member-flood-photo-name-tag-link-join-Arabic)✅
-Unlock Something
+!unlock (bots-member-flood-photo-name-tag-link-join-Arabic)
 موارد بالا را با این دستور آزاد میسازید
-!rules  && !set rules
-TO see group rules or set rules
+!rules - !set rules
 برای دیدن قوانین گروه و یا انتخاب قوانین 
-!about or !set about
-watch about group or set about
+!about - !set about
 در مورد توضیحات گروه میدهد و یا توضیحات گروه رو تعیین کنید 
 !res @username
-see Username INfo
 در مورد اسم و ای دی شخص بهتون میده 
 !who
-Get Ids Chat
 همه ی ای دی های موجود در چت رو بهتون میده
 !log 
-get members id ️
 تمامی فعالیت های انجام یافته توسط شما و یا مدیران رو نشون میده
 !all
-Says every thing he knows about a group
 در مورد تمامی اطلاعات ثبت شده در مورد گروه میدهد
 !newlink
-Changes or Makes new group link
 لینک گروه رو عوض میکنه 
 !link
-gets The Group link
 لینک گروه را در گروه نمایش میده
 !linkpv
-sends the group link to the PV
 برای دریافت لینک در پیوی استفاده میشه 
-!echo تکرار کردن حرف
-!calc 1+2 مشین حساب
-!nerkh نرخ ساخت گروه توسط ربات
-!joke ارسال جوک
-!danestaniha ارسال دانستنی ها
-!info گرفتن مشخصات خود
+!echo
+تکرار کردن حرف
+!calc 1+2
+مشین حساب
+!nerkh 
+نرخ ساخت گروه توسط ربات
 〰〰〰〰〰〰〰〰
-Admins :®
+Admins :
 !add
-to add the group as knows
 برای مجوز دادن به ربات برای استفاده در گروه
 !rem
-to remove the group and be unknown
 برای ناشناس کردن گروه برای ربات توسط مدیران اصلی
-!setgpowner (Gpid) user_id ⚫️
-For Set a Owner of group from realm
+!setgpowner
  برای تعیین سازنده ای برای گروه  از گروه مادر
-!addadmin [Username]
-to add a Global admin to the bot
+!addadmin [username]
 برای ادد کردن ادمین اصلی ربات
 !removeadmin [username]
-to remove an admin from global admins
 برای صلب ادمینی از ادمینای اصلی
 !sms [id] (text)
-To send a message to an account by his/her ID
-برای فرستادن متنی توسط ربات به شخصی با ای دی اون
-〰〰〰〰〰〰〰〰〰〰〰
-3.!stats
-To see the group stats
-برای دیدن آمار گروه 
-〰〰〰〰〰〰〰〰
-4. Feedback
+برای فرستادن متنی توسط ربات به شخصی با ای دی   
+!stats
+برای دیدن آمار گروه
 !feedback (text)
-To send your ideas to the Moderation group
 برای فرستادن انتقادات و پیشنهادات و حرف خود با مدیر ها استفاده میشه
-〰〰〰〰〰〰〰〰〰〰〰
-5. Tagall
 !tagall (text)
-To tags the every one and sends your message at bottom
 تگ کردن همه ی اعضای گروه و نوشتن پیام شما زیرش
-You Can user both "!" & "/" for them
+
+
 می توانید از دو شکلک !  و / برای دادن دستورات استفاده کنید
 ]]
 
