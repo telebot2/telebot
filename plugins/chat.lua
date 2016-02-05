@@ -1,5 +1,13 @@
 local function run(msg)
-
+if msg.text == "علی دارک" then
+	return "بابای منو چیکار داری"
+end
+if msg.text == "اشرار" then
+	return "نگاییدم"
+end
+if msg.text == "عقری شر" then
+	return "کس ننش"
+end
 if msg.text == "Ali" then
 	return "ba babaye man chikar dari"
 end
@@ -48,6 +56,9 @@ end
 if msg.text == "Bot" then
 	return "Hum?"
 end
+if msg.text == "ربات" then
+	return "guuun"
+end
 if msg.text == "Bye" then
 	return "Babay"
 end
@@ -60,13 +71,12 @@ return {
 	description = "Chat With Robot Server", 
 	usage = "chat with robot",
 	patterns = {
-		"^[Aa]li$",
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^[Dd]ark$",
-		"^DARK$",
+		"^[Zz]ac$",
+		"^ZAC$",
 		"^[Bb]ot$",
-		"^[Tt]elewild$",
+		"^[Uu]mbrella$",
 		"^[Bb]ye$",
 		"^?$",
 		"^[Ss]alam$",
