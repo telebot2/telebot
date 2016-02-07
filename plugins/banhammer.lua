@@ -103,18 +103,18 @@ local function kick_ban_res(extra, success, result)
         if is_momod2(member_id, chat_id) and not is_admin2(sender) then
           return send_large_msg(receiver, "You can't ban mods/owner/admins")
         end
-        send_large_msg(receiver, 'User @'..member..' ['..member_id..'] banned')
+        send_large_msg(receiver, 'User @'..کاربر..' ['..member_id..'] بن شد')
         return ban_user(member_id, chat_id)
       elseif get_cmd == 'unban' then
-        send_large_msg(receiver, 'User @'..member..' ['..member_id..'] unbanned')
+        send_large_msg(receiver, 'User @'..کاربر..' ['..member_id..'] آنبن شد')
         local hash =  'banned:'..chat_id
         redis:srem(hash, member_id)
         return 'کاربر '..user_id..' بن شد'
       elseif get_cmd == 'banall' then
-        send_large_msg(receiver, 'User @'..member..' ['..member_id..'] globally banned')
+        send_large_msg(receiver, 'User @'..کاربر..' ['..member_id..'] از همه ی گروه ها بن شد')
         return banall_user(member_id, chat_id)
       elseif get_cmd == 'unbanall' then
-        send_large_msg(receiver, 'User @'..member..' ['..member_id..'] un-globally banned')
+        send_large_msg(receiver, 'User @'..کاربر..' ['..member_id..'] از همه ی گروه ها آنبن شد')
         return unbanall_user(member_id, chat_id)
       end
 end
@@ -122,7 +122,7 @@ end
 local function run(msg, matches)
  if matches[1]:lower() == 'id' then
     if msg.to.type == "user" then
-      return "آیدی ربات: "..msg.to.id.. "\n\nآیدی شما: "..msg.from.id
+      return "\n\nآیدی شما 🆔 : "..msg.from.id
     end
     if type(msg.reply_id) ~= "nil" then
       local name = user_print_name(msg.from)
@@ -131,7 +131,7 @@ local function run(msg, matches)
     elseif matches[1]:lower() == 'id' then
       local name = user_print_name(msg.from)
       savelog(msg.to.id, name.." ["..msg.from.id.."] used /id ")
-      return "Group ID for " ..string.gsub(msg.to.print_name, "_", " ").. ":\n\n"..msg.to.id  
+      return "آیدی گروه 🆔 " ..string.gsub(msg.to.print_name, "_", " ").. ":\n\n"..msg.to.id  
     end
   end
   if matches[1]:lower() == 'kickme' then-- /kickme
