@@ -21,7 +21,7 @@ local fuses = '!printf user#id' .. msg.from.id
 
                  local sends0 = send_msg('chat#اینجا ای دی گروه فید بک', fuse, ok_cb, false)
 
- return 'your feedback succesfully recived to @DARK_BOYS_ADMIN😜!'
+ return 'پیام شما ارسال شده به @DARK_BOYS_ADMIN 📜 '
 
      
 
