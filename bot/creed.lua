@@ -222,7 +222,6 @@ function create_config( )
     "welcome",
     "google",
     "sms",
-    "chat",
     "Debian_service",
     "sudoers",
     "add_admin",
@@ -235,12 +234,7 @@ function create_config( )
     "download_media",
     "invite",
     "all",
-    "leave_ban",
-    "danestaniha",
-    "joke",
-    "nerkh",
-    "echo",
-    "linkpv"
+    "leave_ban"
     },
     sudo_users = {135693512},--Sudo users
     disabled_channels = {},
@@ -249,17 +243,78 @@ function create_config( )
     
      Hello my Good friends 
      
-    ‼️ this bot is made by : @DARK_BOYS_ADMIN
+    ‼️ this bot is made by : DARK_BOYS_ADMIN
    〰〰〰〰〰〰〰〰
-   ߔࠀ   our admins are :
-         @DARK_BOYS_ADMIN
+   ߔࠀ   our admins are : @DARK_BOYS_ADMIN
    〰〰〰〰〰〰〰〰
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
    !feedback (your ideas and messages)
 ]],
+    help_text_realm = [[
+Realm Commands:
+!creategroup [Name]
+Create a group
+گروه جدیدی بسازید
+!createrealm [Name]
+Create a realm
+گروه مادر جدیدی بسازید
+!setname [Name]
+Set realm name
+اسم گروه مادر را تغییر بدهید
+!setabout [GroupID] [Text]
+Set a group's about text
+در مورد  آن گروه توضیحاتی را بنویسید (ای دی گروه را بدهید )
+!setrules [GroupID] [Text]
+Set a group's rules
+در مورد آن گروه قوانینی تعیین کنید ( ای دی گروه را بدهید )
+!lock [GroupID] [setting]
+Lock a group's setting
+تنظیکات گروهی را قفل بکنید
+!unlock [GroupID] [setting]
+Unock a group's setting
+تنظیمات گروهی را از قفل در بیاورید 
+!wholist
+Get a list of members in group/realm
+لیست تمامی اعضای گروه رو با ای دی شون نشون میده
+!who
+Get a file of members in group/realm
+لیست تمامی اعضای گروه را با ای دی در فایل متنی دریافت کنید
+!type
+Get group type
+در مورد نقش گروه بگیرید
+!kill chat [GroupID]
+Kick all memebers and delete group 
+️تمامی اعضای گروه را حذف میکند 
+!kill realm [RealmID]
+Kick all members and delete realm
+تمامی اعضای گروه مارد را حذف میکند
+!addadmin [id|username]
+Promote an admin by id OR username *Sudo only
+ادمینی را اضافه بکنید
+!removeadmin [id|username]
+Demote an admin by id OR username *Sudo only
+️ادمینی را با این دستور صلب مقام میکنید 
+!list groups
+Get a list of all groups
+لیست تمامی گروه هارو میده
+!list realms
+Get a list of all realms
+لیست گروه های مادر را میدهد
+!log
+Get a logfile of current group or realm
+تمامی عملیات گروه را میدهد
+!broadcast [text]
+Send text to all groups ✉️
+✉️ با این دستور به تمامی گروه ها متنی را همزمان میفرستید  .
+!br [group_id] [text]
+This command will send text to [group_id]✉️
+با این دستور میتونید به گروه توسط ربات متنی را بفرستید 
+You Can user both "!" & "/" for them
+میتوانید از هردوی کاراکتر های ! و / برای دستورات استفاده کنید
+]],
     help_text = [[
- 📝 لیست دستورات مدیریتی گروه :
+📝 ليست دستورات مدیریتی :
 _____________________________________
 🚫 حذف کردن کاربر
 
@@ -408,7 +463,9 @@ _____________________________________
 
 †eℓeωiɩ∂ ↭ ßo†
 _____________________________________
- ]]
+]]
+
+  }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
 end
