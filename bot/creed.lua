@@ -204,7 +204,6 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "onservice",
     "inrealm",
     "ingroup",
     "inpm",
@@ -222,6 +221,7 @@ function create_config( )
     "welcome",
     "google",
     "sms",
+    "chat",
     "Debian_service",
     "sudoers",
     "add_admin",
@@ -234,7 +234,12 @@ function create_config( )
     "download_media",
     "invite",
     "all",
-    "leave_ban"
+    "leave_ban",
+    "danestani",
+    "joke",
+    "nerkh",
+    "echo",
+    "linkpv"
     },
     sudo_users = {135693512},--Sudo users
     disabled_channels = {},
