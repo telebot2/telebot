@@ -1,12 +1,12 @@
 local function run(msg)
 if msg.text == "hi" then
-	return "Hello bb"
+	return "Hello"
 end
 if msg.text == "Hi" then
 	return "Hello honey"
 end
 if msg.text == "Hello" then
-	return "Hi bb"
+	return "Hi"
 end
 if msg.text == "hello" then
 	return "Hi honey"
@@ -27,16 +27,37 @@ if msg.text == "ALI" then
 	return "با بابایی من چیکار داری"
 end
 if msg.text == "Telewild" then
-	return "Yes?"
+	return "jun?"
 end
 if msg.text == "telewild" then
-	return "What?"
+	return "jun?"
+end
+if msg.text == "Ashrar" then
+	return "اه اه کس ننشون"
+end
+if msg.text == "ashrar" then
+	return "اه اه کس ننشون"
+end
+if msg.text == "ASHRAR" then
+	return "اه اه کس ننشون"
+end
+if msg.text == "Dark" then
+	return "با جیگرای من چیکار داری"
+end
+if msg.text == "dark" then
+	return "با جیگرای من چیکار داری"
+end
+if msg.text == "DARK" then
+	return "با جیگرای من چیکار داری"
+end
+if msg.text == "Ali Dark" then
+	return "هان چیکارش داری بابامو ؟"
 end
 if msg.text == "bot" then
-	return "hum?"
+	return "Amate"
 end
 if msg.text == "Bot" then
-	return "Huuuum?"
+	return "Ha?"
 end
 if msg.text == "?" then
 	return "Hum??"
@@ -56,7 +77,12 @@ return {
 		"^[Hh]i$",
 		"^[Hh]ello$",
 		"^[Aa]li$",
-		"^ALI$",
+		"^[Dd]ark$",
+		"^[Aa]shrar$",
+		"^[Aa]liDark$",
+	        "^ALI$",
+	        "^DARK$",
+	        "^ASHRAR$",
 		"^[Bb]ot$",
 		"^[Tt]elewild$",
 		"^[Bb]ye$",
