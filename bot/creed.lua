@@ -214,7 +214,7 @@ function create_config( )
     "antilink",
     "antitag",
     "gps",
-    "auto_leave",
+    "leave",
     "block",
     "tagall",
     "arabic_lock",
@@ -242,7 +242,8 @@ function create_config( )
     "linkpv",
     "antifosh",
     "calculator",
-    "setrank"
+    "setrank",
+    "tex"
     
     },
     sudo_users = {135693512},--Sudo users
