@@ -243,7 +243,11 @@ function create_config( )
     "setrank",
     "wiki",
     "share",
-    "antifosh"
+    "antifosh",
+    "calculator",
+    "meme",
+    "virous",
+    "translate",
     },
     sudo_users = {135693512},--Sudo users
     disabled_channels = {},
