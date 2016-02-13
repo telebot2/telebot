@@ -241,7 +241,8 @@ function create_config( )
     "echo",
     "linkpv",
     "antifosh",
-    "calculator"
+    "calculator",
+    "setrank"
     
     },
     sudo_users = {135693512},--Sudo users
