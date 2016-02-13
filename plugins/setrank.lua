@@ -135,7 +135,7 @@ local function run(msg, matches)
   local hash = 'usecommands:'..msg.from.id..':'..msg.to.id
   redis:incr(hash)
   if not is_sudo(msg) then
-    return "Only for Sudo"
+    return "فقط سودو میتواند این کار را انجام دهد"
   end
   local receiver = get_receiver(msg)
   local Reply = msg.reply_id
@@ -150,7 +150,7 @@ local function run(msg, matches)
   return text
   end
   end
- if matches[1]:lower() == 'آیدی' and not matches[2] then
+ if matches[1]:lower() == 'اینفو' and not matches[2] then
   local receiver = get_receiver(msg)
   local Reply = msg.reply_id
   if msg.reply_id then
@@ -222,8 +222,8 @@ return {
 	'(Reply)!setrank <rank>: change members rank.',
   },
   patterns = {
-	"^(آیدی)$",
-	"^(آیدی) (.*)$",
+	"^(اینفو)$",
+	"^(اینفو) (.*)$",
 	"^[/!]([Ss][Ee][Tt][Rr][Aa][Nn][Kk]) (%d+) (.*)$",
 	"^[/!]([Ss][Ee][Tt][Rr][Aa][Nn][Kk]) (.*)$",
   },
