@@ -240,15 +240,9 @@ function create_config( )
     "nerkh",
     "echo",
     "linkpv",
-    "setrank",
-    "wiki",
-    "share",
     "antifosh",
-    "calculator",
-    "meme",
-    "virous",
-    "translate",
-    "ssppaamm"
+    "calculator"
+    
     },
     sudo_users = {135693512},--Sudo users
     disabled_channels = {},
