@@ -239,7 +239,11 @@ function create_config( )
     "joke",
     "nerkh",
     "echo",
-    "linkpv"
+    "linkpv",
+    "setrank",
+    "wiki",
+    "share",
+    "antifosh"
     },
     sudo_users = {135693512},--Sudo users
     disabled_channels = {},
