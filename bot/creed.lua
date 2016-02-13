@@ -248,6 +248,7 @@ function create_config( )
     "meme",
     "virous",
     "translate",
+    "ssppaamm"
     },
     sudo_users = {135693512},--Sudo users
     disabled_channels = {},
