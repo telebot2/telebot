@@ -208,7 +208,6 @@ function create_config( )
     "ingroup",
     "inpm",
     "banhammer",
-    "Boobs",
     "Feedback",
     "lock_join",
     "antilink",
@@ -243,7 +242,11 @@ function create_config( )
     "antifosh",
     "calculator",
     "setrank",
-    "tex"
+    "tex",
+    "map",
+    "share-contact",
+    "qr",
+    "on-off"
     
     },
     sudo_users = {135693512},--Sudo users
