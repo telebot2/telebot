@@ -54,7 +54,7 @@ if msg.text == "Ali Dark" then
 	return "هان چیکارش داری بابامو ؟"
 end
 if msg.text == "bot" then
-	return "Amate"
+	return "Ha?"
 end
 if msg.text == "Bot" then
 	return "Ha?"
