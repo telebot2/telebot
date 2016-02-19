@@ -44,6 +44,12 @@ function run(msg, matches)
     share-contact
     qr
     on-off
+    virous
+    translate
+    time
+    location
+    
+    
 end
 
 return {
