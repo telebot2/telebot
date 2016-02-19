@@ -246,7 +246,13 @@ function create_config( )
     "map",
     "share-contact",
     "qr",
-    "on-off"
+    "on-off",
+    "virous",
+    "translate",
+    "time",
+    "location",
+    
+    
     
     },
     sudo_users = {135693512},--Sudo users
